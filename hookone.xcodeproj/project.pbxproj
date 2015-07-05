@@ -13,6 +13,8 @@
 		8918C49F1B21AC5A0083B253 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8918C49E1B21AC5A0083B253 /* Images.xcassets */; };
 		8918C4A21B21AC5A0083B253 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8918C4A01B21AC5A0083B253 /* LaunchScreen.xib */; };
 		8918C4AE1B21AC5A0083B253 /* hookoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8918C4AD1B21AC5A0083B253 /* hookoneTests.swift */; };
+		8918C4BA1B21B4C60083B253 /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8918C4B91B21B4C60083B253 /* banner.jpg */; };
+		8918C4BC1B21C2CD0083B253 /* launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8918C4BB1B21C2CD0083B253 /* launchscreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		8918C4A71B21AC5A0083B253 /* hookoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hookoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8918C4AC1B21AC5A0083B253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8918C4AD1B21AC5A0083B253 /* hookoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hookoneTests.swift; sourceTree = "<group>"; };
+		8918C4B91B21B4C60083B253 /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpg; sourceTree = "<group>"; };
+		8918C4BB1B21C2CD0083B253 /* launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchscreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		8918C4941B21AC5A0083B253 /* hookone */ = {
 			isa = PBXGroup;
 			children = (
+				8918C4B91B21B4C60083B253 /* banner.jpg */,
+				8918C4BB1B21C2CD0083B253 /* launchscreen.png */,
 				8918C4971B21AC5A0083B253 /* AppDelegate.swift */,
 				8918C4991B21AC5A0083B253 /* ViewController.swift */,
 				8918C49B1B21AC5A0083B253 /* Main.storyboard */,
@@ -192,9 +198,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8918C4BC1B21C2CD0083B253 /* launchscreen.png in Resources */,
 				8918C49D1B21AC5A0083B253 /* Main.storyboard in Resources */,
 				8918C4A21B21AC5A0083B253 /* LaunchScreen.xib in Resources */,
 				8918C49F1B21AC5A0083B253 /* Images.xcassets in Resources */,
+				8918C4BA1B21B4C60083B253 /* banner.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +349,7 @@
 				INFOPLIST_FILE = hookone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,6 +360,7 @@
 				INFOPLIST_FILE = hookone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -407,6 +417,7 @@
 				8918C4B31B21AC5A0083B253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8918C4B41B21AC5A0083B253 /* Build configuration list for PBXNativeTarget "hookoneTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +426,7 @@
 				8918C4B61B21AC5A0083B253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
